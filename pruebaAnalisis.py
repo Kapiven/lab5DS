@@ -14,6 +14,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 from scipy.sparse import hstack
 
+# Instalaciones necesarias
+# !pip install wordcloud
+# !pip install vaderSentiment
+
 # 2. Cargar el dataset
 df = pd.read_csv("train.csv")
 print(df.info())
